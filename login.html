@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+    <style>
+        #login{
+          width: 450px;
+          height: 450px;
+          background-color:rgb(226, 150, 238);
+        }
+        a{
+         color: rgb(194, 8, 132);
+        }
+      </style>
+
+</head>
+<body>
+    <center>
+        <br>
+    <div id="login">
+        <br>
+        <img src="img/foro.png" width="130px" height="130px">
+        <br>
+        <h3>Iniciar Sesion</h3>
+        <div>
+            <label> Usuario</label>
+            <input type="text" id="user" class="form-control w-75 m-auto">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" id="pass" class="form-control w-75 m-auto">
+        </div><br>
+        <button class="btn btn-dark" onclick="login()">Iniciar Sesion</button>
+        <br><br>
+        <a href="registro.html">Registrarse</a>
+    </div>
+</center>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert2@11.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
